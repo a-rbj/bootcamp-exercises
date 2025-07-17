@@ -1,3 +1,3 @@
 # bootcamp-exercises
 
-Ici seront répertoriés tous les projets et scripts de mon bootcamp DevOps
+Here are all the projects and exercises from my DevOps bootcamp
