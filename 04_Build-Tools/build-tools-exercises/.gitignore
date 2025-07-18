@@ -2,6 +2,7 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea/*
 
 ### Eclipse ###
 .apt_generated
@@ -29,5 +30,5 @@ bin/
 .DS_Store
 
 ### Exercises ###
-.idea/*
 build/*
+.gradle/*
