@@ -1,3 +1,5 @@
+
+
 plugins {
     id 'java'
     id 'org.springframework.boot' version '3.1.0-SNAPSHOT'
@@ -9,6 +11,8 @@ version '1.0-SNAPSHOT'
 sourceCompatibility = 17
 
 apply plugin: 'maven-publish'
+
+
 
 publishing {
     publications {
@@ -22,7 +26,7 @@ publishing {
     repositories {
         maven {
             name 'nexus'
-            url "http://xx.xx.xx.xx:xxxx/repository/maven-snapshots/" 
+            url "http://165.227.167.231:8081/repository/maven-snapshots/" 
             allowInsecureProtocol = true
             credentials {
                 username project.repoUser
